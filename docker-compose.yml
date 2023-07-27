@@ -6,6 +6,8 @@ services:
       - "./confs/vts_location.conf:/usr/local/openresty/nginx/conf/vts_location.conf"
       - "./confs/vts_setup.conf:/usr/local/openresty/nginx/conf/vts_setup.conf"
       - "./confs/lua_path_setup.conf:/usr/local/openresty/nginx/conf/lua_path_setup.conf"
+      - "./confs/cache_definition.conf:/usr/local/openresty/nginx/conf/cache_definition.conf"
+      - "./confs/cache_setup.conf:/usr/local/openresty/nginx/conf/cache_setup.conf"
       - "./src/:/lua/src/"
 
 
